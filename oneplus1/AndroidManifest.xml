@@ -22,10 +22,14 @@
 		    android:label="@string/oneplus_parts_settings"
 			android:launchMode="singleTop" >
 			<intent-filter>
-				<action android:name="android.intent.action.LAUNCH_BUTTON_SETTINGS" />
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-				<category android:name="android.intent.category.DEFAULT" />
-			</intent-filter>
+                <action android:name="com.android.settings.action.OP_SETTINGS" />
+            </intent-filter>
+			<meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.device" />
+            <meta-data
+                android:name="com.android.settings.icon"
+                android:resource="@drawable/ic_app_launcher" />
 		</activity>
 		<receiver android:name="org.omnirom.device.Startup" >
 			<intent-filter android:priority="100" >
