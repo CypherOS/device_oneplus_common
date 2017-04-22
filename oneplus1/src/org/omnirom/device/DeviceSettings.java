@@ -31,8 +31,7 @@ import android.text.TextUtils;
 import android.view.MenuItem;
 import android.util.Log;
 
-public class DeviceSettings extends PreferenceActivity implements
-        Preference.OnPreferenceChangeListener {
+public class DeviceSettings extends PreferenceActivity {
 
     public static final String KEY_CAMERA_SWITCH = "camera";
     public static final String KEY_TORCH_SWITCH = "torch";

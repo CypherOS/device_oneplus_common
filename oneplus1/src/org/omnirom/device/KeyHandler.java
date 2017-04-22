@@ -258,9 +258,7 @@ public class KeyHandler implements DeviceKeyHandler {
 
     @Override
     public boolean handleKeyEvent(KeyEvent event) {
-        if (event.getAction() != KeyEvent.ACTION_UP) {
-            return false;
-        }
+        return false;
     }
 
     @Override
