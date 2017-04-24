@@ -258,7 +258,7 @@ public class KeyHandler implements DeviceKeyHandler {
 
     @Override
     public boolean handleKeyEvent(KeyEvent event) {
-        return false;
+        // Do nothing
     }
 
     @Override
