@@ -22,7 +22,7 @@
 		    android:label="@string/oneplus_parts_settings"
 			android:launchMode="singleTop" >
 			<intent-filter>
-                <action android:name="com.android.settings.action.OP_SETTINGS" />
+                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
             </intent-filter>
 			<meta-data
                 android:name="com.android.settings.category"
