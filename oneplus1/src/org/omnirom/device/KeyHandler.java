@@ -145,7 +145,7 @@ public class KeyHandler implements DeviceKeyHandler {
 
         void observe() {
             mContext.getContentResolver().registerContentObserver(Settings.System.getUriFor(
-                    Settings.System.HARDWARE_KEYS_DISABLE),
+                    Settings.System.NAVIGATION_BAR_SHOW),
                     false, this);
             mContext.getContentResolver().registerContentObserver(Settings.System.getUriFor(
                     Settings.System.PROXIMITY_ON_WAKE),
@@ -285,7 +285,7 @@ public class KeyHandler implements DeviceKeyHandler {
 
     public static void setButtonDisable(Context context) {
         mButtonDisabled = Settings.System.getInt(
-                context.getContentResolver(), Settings.System.HARDWARE_KEYS_DISABLE, 0) == 1;
+                context.getContentResolver(), Settings.System.NAVIGATION_BAR_SHOW, 0) == 1;
         if (DEBUG) Log.i(TAG, "setButtonDisable=" + mButtonDisabled);
         if(mButtonDisabled)
             Utils.writeValue(KEY_CONTROL_PATH, "1");
