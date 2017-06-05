@@ -2,7 +2,7 @@
   {
     "repository":  "device_qcom_common",
     "target_path": "device/qcom/common",
-	"remote":      "aoscp",
-	"branch":      "nougat-mr1"
+    "remote":      "aoscp",
+    "branch":      "nougat-mr2"
   }
 ]
