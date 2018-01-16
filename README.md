@@ -1,4 +1,4 @@
-Common device tree for OPPO devices
+Common device tree for OnePlus devices
 
 Copyright 2014, The CyanogenMod Project
 
