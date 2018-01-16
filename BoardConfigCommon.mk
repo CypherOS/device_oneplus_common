@@ -16,10 +16,6 @@
 
 BOARD_VENDOR := oppo
 
-# Lineage Hardware
-BOARD_HARDWARE_CLASS += \
-    hardware/lineage/lineagehw
-
 # QCOM Power
 TARGET_POWERHAL_VARIANT := qcom
 
