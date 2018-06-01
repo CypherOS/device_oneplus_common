@@ -18,4 +18,4 @@ BOARD_VENDOR := oppo
 
 # Releasetools
 TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_oppo
-TARGET_RELEASETOOLS_EXTENSIONS := device/oppo/common
+TARGET_RELEASETOOLS_EXTENSIONS := device/oneplus/common
